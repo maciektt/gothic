@@ -30,16 +30,14 @@
 }
 .menu1{
     color: red;
-
+    
 }
 .menu{
     color: gray;    
-    
+   
 }
 .menu:hover{
     color: red;
-
-
 }
 .leftnav{
     width: 45%;
@@ -104,6 +102,7 @@
 .gpss{
     width: 50px;
     height: auto;
+    
 }
 .info{
     display: flex;
@@ -119,6 +118,7 @@
     border: 5px solid red;
     position: relative;
     bottom: 70px;
+    transition: transform 0.3s ease;
 }
 .gps{
     display: flex;
@@ -141,4 +141,38 @@
     margin-left: -10px;
     height: 120px;
 
+}
+/* ----------------------------------------------------------------------------------------------------------------------------------------------- */
+.section-menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    font-size: 70px;
+    height: 100px;
+    margin-right: -10px;
+    margin-left: -10px;
+    font-family: cursive;
+    color:red;
+
+}
+.kategoria{
+    display: flex;
+    justify-content: start;
+    font-size: 60px;
+    font-family: cursive;
+    color: black;
+    background-color: yellow;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+}
+.meni{
+    display: flex;
+    flex-direction: row;
+    background-color: yellow;
+    height: 190px;
+    margin-left: -10px;
+    margin-right: -10px;
+    
 }
