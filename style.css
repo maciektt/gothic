@@ -19,6 +19,21 @@
     color: blueviolet;
 
 }
+.GitHub{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 17px;
+    font-weight: 700;
+    background-color: brown;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-bottom: -10px
+}
+.git{
+    text-decoration: none;
+}
 /* ------------------------------------------------------------------------------------------------------------ */
 .navbar{
     display: flex;
